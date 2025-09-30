@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #a0c3eb;
+  color: #333;
+}
+
+/* Navigation Bar */
+.navigation-bar {
+  background-color: #aedcf5;
+  padding: 15px;
+}
+
+.navigation-bar h1 {
+  color: #bcb0bb;
+  margin-bottom: 10px;
+}
+
+.navigation-menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.navigation-menu li a {
+  color: rgb(3, 11, 17);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navigation-menu li a:hover {
+  text-decoration: underline;
+}
+
+/* Hero Section */
+.hero, .contact-banner, .feature-presentation, .products-container {
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 1200px;
+}
+
+/* Center all text */
+.hero h2, 
+.hero p,
+.contact-banner h3, 
+.contact-banner p,
+.spot h1, 
+.spot p, 
+.product-item h2, 
+.product-item p {
+  text-align: center;
+}
+
+/* Tourist Spots Grid */
+.spots {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.spot {
+  background: #9ea2a9;
+  border-radius: 10px;
+  padding: 15px;
+  width: 500px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.spot img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Products Grid */
+.products-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.product-item {
+  background: #b4c4cd;
+  border-radius: 10px;
+  padding: 15px;
+  width: 300px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.product-item img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+button {
+  margin: 5px;
+  padding: 8px 12px;
+  border: none;
+  background-color: #eff9ec;
+  color: rgb(0, 1, 3);
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #023e8a;
+}
+
+/* Footer */
+footer {
+  margin-top: 30px;
+  padding: 15px;
+  background-color: #0077b6;
+  color: rgb(188, 193, 201);
+}
